@@ -1,0 +1,124 @@
+body {
+background-color: #EFEFF2;
+color: #19191C;
+font-family: 'Inter';
+}
+
+h1, h2, h3, h4, h5, h6, p {  
+    margin: 0;
+}
+.list {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+.link {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: block;
+}
+.container {
+    margin: 0 auto;
+    width: 1440px;
+    
+}
+.header-container {
+    
+    display: flex;
+    align-items: center;
+}
+.header-list {
+    gap: 48px;
+    display: flex;
+    align-items: center; 
+    margin-left: 68px;   
+}
+.header-logo {
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    line-height: 30px;
+    
+}
+.header-right {
+    margin-left: auto;
+    display: flex;
+    gap: 48px;
+}
+
+.header-container a{
+    color: black;
+}
+
+.header-logo img{
+    padding-right: 10px;
+
+}
+.header-sign-in {
+    border: none;
+    background: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+.header-trial {
+    background-color: #19191C;
+    padding: 12px 37px;
+    color: #EFEFF2;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+
+}
+.header-lang {
+    border: none;
+    background: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+
+.offer-title {
+    font-size: 58px;
+    font-weight: 700;
+    width: 648px;
+    line-height: 70px;
+    margin-top: 186px;
+}
+.offer-text {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 18px;
+}
+.offer-text a{
+    color: #504DEE;
+}
+.offer-button {
+    background-color: #504DEE;
+    color: #FBFBFC;
+    padding: 16px 37px;
+    gap: 10px;
+    font-size: 18px;
+    border: none;
+    margin-top: 62px;
+}
+.offer-div {
+    width: 648px;
+    background-image: url(img/elipse-background-1.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.offer-sale {
+    font-weight: 700;
+    font-size: 58px;
+    margin-top: 110px;
+}
+.offer-time {
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 8px;
+}
